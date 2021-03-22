@@ -1,11 +1,10 @@
-  ___   ___   ___         ___   ___         _  _                                            _           ___ 
- | _ \ / __| / __|       |_ _| |_ _|  ___  | || |  ___   _ __    ___  __ __ __  ___   _ _  | |__       |_  )
- |  _/ \__ \ \__ \        | |   | |  |___| | __ | / _ \ | '  \  / -_) \ V  V / / _ \ | '_| | / /        / / 
- |_|   |___/ |___/  ___  |___| |___|       |_||_| \___/ |_|_|_| \___|  \_/\_/  \___/ |_|   |_\_\  ___  /___|
-                   |___|                                                                         |___|      
-
-
 main.cpp - example of using most of the methods and functions.
+
+
+Emergency modes:
+
+startEmergency(User) - starts emergency mode, opens all rooms for all users
+endEmergency(Admin) - ends emergency mode
 
 
 Assigning new Rooms:
@@ -24,6 +23,7 @@ Admin(string *Admin's Name*)
 Professor(string *Professor's Name*, int *Cabinet's number*, string *Favorite joke*)
 LabEmployee(string *employee's Name*, Cabinet *Lab*)
 Student(string *student's Name*, int *course*)
+Guest(string *guest's Name*)
 
 
 users.cpp methods and functions:
