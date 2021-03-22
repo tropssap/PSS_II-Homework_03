@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CPP/PSS_II-Homework_03/accessLevel.h
+
+D:/CPP/PSS_II-Homework_03/main.cpp
+iostream
+-
+cstdlib
+-
+room.h
+D:/CPP/PSS_II-Homework_03/room.h
+users.h
+D:/CPP/PSS_II-Homework_03/users.h
+
+D:/CPP/PSS_II-Homework_03/room.h
+accessLevel.h
+D:/CPP/PSS_II-Homework_03/accessLevel.h
+
+D:/CPP/PSS_II-Homework_03/users.h
+string
+-
+vector
+-
+accessLevel.h
+D:/CPP/PSS_II-Homework_03/accessLevel.h
+room.h
+D:/CPP/PSS_II-Homework_03/room.h
+
